@@ -21,9 +21,9 @@ import weka.classifiers.Evaluation;
 
 public class PatientServiceImpl extends UnicastRemoteObject implements PatientService {
 
-    private static final String URL = "jdbc:mysql://127.0.0.1:3306/obesity_predictor_db";
-    private static final String USER = "root";
-    private static final String PASSWORD = "rootbdd2003";
+    private static final String URL = "******";
+    private static final String USER = "******";
+    private static final String PASSWORD = "******";
 
     private static final int FIRST_TRAIN_THRESHOLD = 1000;
     private static final double RETRAIN_PERCENTAGE = 0.05;
